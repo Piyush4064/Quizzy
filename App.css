@@ -1,0 +1,22 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.jic{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.app__container {
+	margin-top: 10px;
+	
+	border: 1px solid #000;
+}
+
+.app__input {
+	margin-top: 10px;
+}

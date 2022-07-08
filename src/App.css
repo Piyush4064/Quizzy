@@ -1,0 +1,80 @@
+.rgt-border {
+  border-right: 3px solid #000;
+}
+.lft-border {
+  border-left: 4px solid rgb(233, 135, 8);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+.createForm {
+  border-left: 4px solid rgb(233, 135, 8);
+  border-top: 4px solid rgb(233, 135, 8);
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 0.7rem;
+}
+.jic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fss {
+  font-size: 1.5rem;
+}
+
+hr {
+  border: 0;
+  border-bottom: 3px dashed rgb(102, 102, 117);
+  max-width: 40%;
+  text-align: center;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.custom-modal {
+  width: 100vw;
+  height: 100vh;
+}
+
+.page input[type="checkbox"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+.page input[type="radio"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2.4); /* IE */
+  -moz-transform: scale(2.4); /* FF */
+  -webkit-transform: scale(2.4); /* Safari and Chrome */
+  -o-transform: scale(2.4); /* Opera */
+  transform: scale(2.4);
+  padding: 10px;
+}
+
+td {
+  padding: 0;
+  margin: 0;
+}
+
+.mainLogo {
+  -webkit-box-reflect: below 0 px
+    linear-gradient(transparent, transparent, #0004);
+}
+
+.overflowCustom {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
